@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El experimento del euro</title>
+<meta name="description" content="Un experimento personal sobre la participación voluntaria: ¿qué puede conseguir una pequeña aportación de 1 euro?">
+<style>
+:root{--ink:#182238;--muted:#5c667a;--paper:#f6f8fc;--line:#e3e8f1;--blue:#315bea;--mint:#dff8ed}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+.wrap{width:min(100% - 32px,900px);margin:auto}.top{padding:24px 0}.brand{font-size:.9rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
+.hero{padding:52px 0 34px}.pill{display:inline-block;background:var(--mint);color:#176647;border-radius:99px;padding:6px 12px;font-size:.82rem;font-weight:700}
+h1{font-size:clamp(2.4rem,7vw,4.8rem);line-height:1.03;letter-spacing:-.055em;margin:18px 0}.lead{font-size:1.15rem;color:var(--muted);max-width:650px}
+.card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:clamp(22px,5vw,38px);box-shadow:0 14px 40px #1d2c4a0a;margin:18px 0}
+.amount{font-size:3.2rem;font-weight:850;letter-spacing:-.06em;margin:2px 0}.note{font-size:.9rem;color:var(--muted)}
+.button{display:inline-block;margin-top:16px;background:var(--blue);color:white;text-decoration:none;font-weight:750;padding:13px 20px;border-radius:12px}
+.button.disabled{background:#aab4ca;cursor:not-allowed}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.mini{background:#f8faff;border:1px solid var(--line);padding:18px;border-radius:16px}h2{letter-spacing:-.025em}footer{padding:28px 0 44px;color:var(--muted);font-size:.88rem}.notice{border-left:4px solid #e7a43b;padding:12px 16px;background:#fff8e9;border-radius:0 12px 12px 0}
+</style>
+</head>
+<body>
+<header class="top wrap"><div class="brand">Experimento social · 1 €</div></header>
+<main class="wrap">
+<section class="hero">
+<span class="pill">Participación voluntaria</span>
+<h1>¿Qué puede conseguir<br>un euro?</h1>
+<p class="lead">Un experimento personal para medir cuántas personas deciden apoyar una petición pequeña y voluntaria. Cada persona puede decir que sí o que no; ambas respuestas se respetan.</p>
+</section>
+<section class="card">
+<p class="note">APORTACIÓN PROPUESTA</p>
+<div class="amount">1 €</div>
+<p>El dinero recaudado se destinaría al organizador de este experimento, como aportación personal. No es una campaña de una ONG ni se ofrece una recompensa a cambio.</p>
+<div class="notice"><strong>Transparencia:</strong> todavía no se aceptan pagos. El organizador es menor de edad y cualquier sistema de cobro deberá configurarse con la supervisión de su padre, madre o tutor legal, respetando las condiciones del proveedor.</div>
+<a class="button disabled" aria-disabled="true" href="#estado">Aportaciones aún no disponibles</a>
+<p class="note">No envíes dinero hasta que esta página muestre un método de pago verificado y los datos necesarios para identificar al organizador.</p>
+</section>
+<section class="card">
+<h2>¿Cómo funciona?</h2>
+<div class="grid">
+<div class="mini"><strong>1. Conoce el objetivo</strong><br>Lee para qué es el experimento y adónde iría el dinero.</div>
+<div class="mini"><strong>2. Decide libremente</strong><br>No hay obligación de participar ni de aportar dinero.</div>
+<div class="mini"><strong>3. Publicaremos resultados</strong><br>Se comunicarán cifras agregadas de respuestas y aportaciones confirmadas, sin revelar datos personales.</div>
+</div>
+</section>
+<section class="card" id="estado">
+<h2>Estado del experimento</h2>
+<div class="grid">
+<div class="mini"><p class="note">Aportaciones confirmadas</p><div class="amount">0 €</div></div>
+<div class="mini"><p class="note">Participantes confirmados</p><div class="amount">0</div></div>
+</div>
+<p class="note">Estas cifras son iniciales, no datos de una campaña en marcha. Se actualizarán únicamente cuando existan registros verificables.</p>
+</section>
+<section class="card">
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿Tengo que aportar?</strong><br>No. La participación es totalmente voluntaria.</p>
+<p><strong>¿Es una organización benéfica?</strong><br>No. Es un experimento personal y el dinero, si se habilita la recaudación, sería para el organizador.</p>
+<p><strong>¿Puedo pedir que se borren mis datos?</strong><br>No se solicitan datos personales en esta página de demostración.</p>
+</section>
+</main>
+<footer class="wrap">Página de demostración. No hay pagos conectados, no se ha recaudado dinero y no se han enviado invitaciones por correo electrónico.</footer>
+</body>
+</html>
